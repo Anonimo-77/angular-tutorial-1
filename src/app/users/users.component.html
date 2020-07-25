@@ -1,0 +1,10 @@
+<div *ngFor="let user of users">
+    <table>
+        <tr>
+            <td [ngStyle]="styleObj">{{user.username}}</td>
+            <td *ngIf="user.pro"><div class="pro">PRO</div></td>
+        </tr>
+    </table>
+    
+    
+</div>

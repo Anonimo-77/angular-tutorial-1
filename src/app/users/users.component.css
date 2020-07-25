@@ -1,0 +1,10 @@
+.pro {
+    width: 45px;
+    height: 21px;
+    background-color: gold;
+    border-radius: 4px;
+    text-align: center;
+    vertical-align: middle;
+    color: black;
+    font-weight: bold;
+}
